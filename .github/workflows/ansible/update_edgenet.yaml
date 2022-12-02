@@ -1,0 +1,68 @@
+---
+-
+  name: Update Daoc   binary
+  hosts:
+    - all
+  become: yes
+  tasks:
+    ## update & upgrade system
+    - name: Update & upgrade system
+      apt:
+        upgrade: yes
+        update_cache: yes
+
+    ## stop dao-chain service
+    - name: Stop Daoc   service
+      systemd:
+        state: stopped
+        name: dao-chain
+
+    ## get the latest release
+    - name: Get latest release link
+      uri:
+        url: https://api.github.com/repos/dao-chain/dao-chain/releases/latest
+        return_content: true
+      register:  _release
+
+    ## download the latest release
+    - name: Download latest Daoc   release
+      get_url:
+        url: "{{  _release.json.assets[3].browser_download_url }}"
+        dest: /tmp/dao-chain.tar.gz
+        force: yes
+
+    ## create temp dir for release
+    - name: Create temp dir for Daoc   release
+      file:
+        path: /tmp/dao-chain
+        state: directory
+
+    ## unpack release tar
+    - name: Unpack Daoc   release
+      unarchive:
+        remote_src: yes
+        src: /tmp/dao-chain.tar.gz
+        dest: /tmp/dao-chain
+
+    ## set dao-chain to PATH
+    - name: Place Daoc   binary to PATH
+      copy:
+        remote_src: yes
+        src: /tmp/dao-chain/dao-chain
+        dest: /usr/local/bin/
+        mode: a+x
+        force: yes
+
+    ## remove release temp dir
+    - name: Remove temp Daoc   release dir
+      file:
+        state: absent
+        path: /tmp/dao-chain
+
+    ## start Daoc   service
+    - name: Start dao-chain service
+      systemd:
+        state: restarted
+        name: dao-chain
+        daemon_reload: yes
+        enabled: yes
