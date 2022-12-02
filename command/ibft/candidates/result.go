@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/0xDaoChain/dao-chainc/ommand/helper"
+	"github.com/0xDaoChain/dao-chain/command/helper"
 	ibftHelper "github.com/0xDaoChain/dao-chain/command/ibft/helper"
 	ibftOp "github.com/0xDaoChain/dao-chain/consensus/ibft/proto"
 )

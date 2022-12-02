@@ -39,7 +39,7 @@ import (
 	"github.com/0xDaoChain/dao-chain/server/proto"
 	txpoolProto "github.com/0xDaoChain/dao-chain/txpool/proto"
 	"github.com/0xDaoChain/dao-chain/types"
-	"github.com/0xDaoChain/dao-chainvalidators"
+	"github.com/0xDaoChain/dao-chain/validators"
 	"github.com/hashicorp/go-hclog"
 	"github.com/libp2p/go-libp2p/core/peer"
 	"github.com/umbracle/ethgo"

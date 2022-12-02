@@ -7,7 +7,7 @@ import (
 	"github.com/0xDaoChain/dao-chain/command/helper"
 	ibftHelper "github.com/0xDaoChain/dao-chain/command/ibft/helper"
 	ibftOp "github.com/0xDaoChain/dao-chain/consensus/ibft/proto"
-	"github.com/0xDaoChain/dao-chainvalidators"
+	"github.com/0xDaoChain/dao-chain/validators"
 )
 
 type IBFTSnapshotVote struct {

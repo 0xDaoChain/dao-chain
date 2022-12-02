@@ -2,7 +2,7 @@ package version
 
 import (
 	"github.com/0xDaoChain/dao-chain/command"
-	"github.com/0xDaoChain/dao-chainversioning"
+	"github.com/0xDaoChain/dao-chain/versioning"
 	"github.com/spf13/cobra"
 )
 

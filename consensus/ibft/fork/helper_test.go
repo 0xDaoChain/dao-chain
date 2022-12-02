@@ -10,9 +10,9 @@ import (
 	"github.com/0xDaoChain/dao-chain/crypto"
 	testHelper "github.com/0xDaoChain/dao-chain/helper/tests"
 	"github.com/0xDaoChain/dao-chain/types"
-	"github.com/0xDaoChain/dao-chainvalidators"
-	"github.com/0xDaoChain/dao-chainvalidators/store"
-	"github.com/0xDaoChain/dao-chainvalidators/store/snapshot"
+	"github.com/0xDaoChain/dao-chain/validators"
+	"github.com/0xDaoChain/dao-chain/validators/store"
+	"github.com/0xDaoChain/dao-chain/validators/store/snapshot"
 	"github.com/stretchr/testify/assert"
 )
 

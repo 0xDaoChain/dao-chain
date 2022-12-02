@@ -1,7 +1,7 @@
 package ibft
 
 import (
-	"github.com/dao-chain/go-ibft/messages/proto"
+	"github.com/0xDaoChain/go-ibft/messages/proto"
 	"github.com/0xDaoChain/dao-chain/network"
 	"github.com/0xDaoChain/dao-chain/types"
 	"github.com/libp2p/go-libp2p/core/peer"

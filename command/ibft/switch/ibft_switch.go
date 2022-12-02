@@ -5,7 +5,7 @@ import (
 
 	"github.com/0xDaoChain/dao-chain/command"
 	"github.com/0xDaoChain/dao-chain/command/helper"
-	"github.com/0xDaoChain/dao-chainvalidators"
+	"github.com/0xDaoChain/dao-chain/validators"
 	"github.com/spf13/cobra"
 )
 

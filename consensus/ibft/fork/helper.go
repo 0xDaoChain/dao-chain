@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"os"
 
-	"github.com/0xDaoChain/dao-chainvalidators/store/snapshot"
+	"github.com/0xDaoChain/dao-chain/validators/store/snapshot"
 )
 
 // loadSnapshotMetadata loads Metadata from file

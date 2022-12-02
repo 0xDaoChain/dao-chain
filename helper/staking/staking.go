@@ -9,7 +9,7 @@ import (
 	"github.com/0xDaoChain/dao-chain/helper/hex"
 	"github.com/0xDaoChain/dao-chain/helper/keccak"
 	"github.com/0xDaoChain/dao-chain/types"
-	"github.com/0xDaoChain/dao-chainvalidators"
+	"github.com/0xDaoChain/dao-chain/validators"
 )
 
 var (

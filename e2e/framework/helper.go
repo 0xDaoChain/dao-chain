@@ -13,8 +13,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/0xDaoChain/dao-chaincontracts/abis"
-	"github.com/0xDaoChain/dao-chaincontracts/staking"
+	"github.com/0xDaoChain/dao-chain/contracts/abis"
+	"github.com/0xDaoChain/dao-chain/contracts/staking"
 	"github.com/0xDaoChain/dao-chain/crypto"
 	"github.com/0xDaoChain/dao-chain/helper/hex"
 	"github.com/0xDaoChain/dao-chain/helper/tests"

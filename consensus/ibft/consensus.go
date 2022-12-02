@@ -4,7 +4,7 @@ import (
 	"context"
 	"sync"
 
-	"github.com/dao-chain/go-ibft/core"
+	"github.com/0xDaoChain/go-ibft/core"
 )
 
 // IBFTConsensus is a convenience wrapper for the go-ibft package

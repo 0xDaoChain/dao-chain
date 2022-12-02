@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"encoding/hex"
 
-	"github.com/dao-chain/go-ibft/messages"
-	protoIBFT "github.com/dao-chain/go-ibft/messages/proto"
+	"github.com/0xDaoChain/go-ibft/messages"
+	protoIBFT "github.com/0xDaoChain/go-ibft/messages/proto"
 	"github.com/0xDaoChain/dao-chain/types"
 )
 

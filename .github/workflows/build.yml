@@ -17,7 +17,7 @@ jobs:
           go-version: 1.18.x
 
       - name: Build Daoc  
-        run: go build -tags netgo -ldflags="-s -w -linkmode external -extldflags "-static" -X \"github.com/0xDaoChain/dao-chainversioning.Version=${GITHUB_REF_NAME}\" -X \"github.com/0xDaoChain/dao-chainversioning.Commit=${GITHUB_SHA}\"" && tar -czvf dao-chain.tar.gz dao-chain
+        run: go build -tags netgo -ldflags="-s -w -linkmode external -extldflags "-static" -X \"github.com/0xDaoChain/dao-chain/versioning.Version=${GITHUB_REF_NAME}\" -X \"github.com/0xDaoChain/dao-chain/versioning.Commit=${GITHUB_SHA}\"" && tar -czvf dao-chain.tar.gz dao-chain
         env:
           CC: gcc
           CXX: g++

@@ -3,7 +3,7 @@ package ibft
 import (
 	"google.golang.org/protobuf/proto"
 
-	protoIBFT "github.com/dao-chain/go-ibft/messages/proto"
+	protoIBFT "github.com/0xDaoChain/go-ibft/messages/proto"
 	"github.com/0xDaoChain/dao-chain/types"
 )
 

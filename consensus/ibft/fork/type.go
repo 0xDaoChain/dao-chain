@@ -3,7 +3,7 @@ package fork
 import (
 	"fmt"
 
-	"github.com/0xDaoChain/dao-chainvalidators/store"
+	"github.com/0xDaoChain/dao-chain/validators/store"
 )
 
 // Define the type of the IBFT consensus

@@ -11,7 +11,7 @@ import (
 	"github.com/0xDaoChain/dao-chain/blockchain"
 	"github.com/0xDaoChain/dao-chain/network"
 	"github.com/0xDaoChain/dao-chain/network/event"
-	"github.com/0xDaoChain/dao-chainsyncer/proto"
+	"github.com/0xDaoChain/dao-chain/syncer/proto"
 	"github.com/0xDaoChain/dao-chain/types"
 	"github.com/hashicorp/go-hclog"
 	"github.com/libp2p/go-libp2p/core/peer"

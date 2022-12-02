@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/0xDaoChain/dao-chainlicenses"
+	"github.com/0xDaoChain/dao-chain/licenses"
 )
 
 type LicenseResult struct {

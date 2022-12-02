@@ -7,7 +7,7 @@ import (
 	"net"
 	"testing"
 
-	"github.com/0xDaoChain/dao-chainsyncer/proto"
+	"github.com/0xDaoChain/dao-chain/syncer/proto"
 	"github.com/0xDaoChain/dao-chain/types"
 	"github.com/stretchr/testify/assert"
 	"google.golang.org/grpc"

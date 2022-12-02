@@ -7,7 +7,7 @@ import (
 	"github.com/0xDaoChain/dao-chain/command/helper"
 	"github.com/0xDaoChain/dao-chain/consensus/ibft/fork"
 	"github.com/0xDaoChain/dao-chain/helper/common"
-	"github.com/0xDaoChain/dao-chainvalidators"
+	"github.com/0xDaoChain/dao-chain/validators"
 )
 
 type IBFTSwitchResult struct {

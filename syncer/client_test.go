@@ -14,7 +14,7 @@ import (
 	"github.com/0xDaoChain/dao-chain/network"
 	"github.com/0xDaoChain/dao-chain/network/event"
 	"github.com/0xDaoChain/dao-chain/network/grpc"
-	"github.com/0xDaoChain/dao-chainsyncer/proto"
+	"github.com/0xDaoChain/dao-chain/syncer/proto"
 	"github.com/0xDaoChain/dao-chain/types"
 )
 

@@ -10,7 +10,7 @@ import (
 	"github.com/0xDaoChain/dao-chain/helper/hex"
 	"github.com/0xDaoChain/dao-chain/secrets"
 	"github.com/0xDaoChain/dao-chain/types"
-	"github.com/0xDaoChain/dao-chainvalidators"
+	"github.com/0xDaoChain/dao-chain/validators"
 	"github.com/coinbase/kryptology/pkg/signatures/bls/bls_sig"
 	"github.com/stretchr/testify/assert"
 )

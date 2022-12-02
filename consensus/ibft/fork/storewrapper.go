@@ -4,10 +4,10 @@ import (
 	"path/filepath"
 
 	"github.com/0xDaoChain/dao-chain/consensus/ibft/signer"
-	"github.com/0xDaoChain/dao-chainvalidators"
-	"github.com/0xDaoChain/dao-chainvalidators/store"
-	"github.com/0xDaoChain/dao-chainvalidators/store/contract"
-	"github.com/0xDaoChain/dao-chainvalidators/store/snapshot"
+	"github.com/0xDaoChain/dao-chain/validators"
+	"github.com/0xDaoChain/dao-chain/validators/store"
+	"github.com/0xDaoChain/dao-chain/validators/store/contract"
+	"github.com/0xDaoChain/dao-chain/validators/store/snapshot"
 	"github.com/hashicorp/go-hclog"
 )
 

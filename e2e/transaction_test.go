@@ -14,12 +14,12 @@ import (
 
 	"github.com/umbracle/ethgo"
 
-	"github.com/0xDaoChain/dao-chaincontracts/abis"
+	"github.com/0xDaoChain/dao-chain/contracts/abis"
 	"github.com/0xDaoChain/dao-chain/crypto"
 	"github.com/0xDaoChain/dao-chaine2e/framework"
 	"github.com/0xDaoChain/dao-chain/helper/tests"
 	"github.com/0xDaoChain/dao-chain/types"
-	"github.com/0xDaoChain/dao-chainvalidators"
+	"github.com/0xDaoChain/dao-chain/validators"
 	"github.com/stretchr/testify/assert"
 	"github.com/umbracle/ethgo/jsonrpc"
 )

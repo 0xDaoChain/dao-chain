@@ -5,7 +5,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/0xDaoChain/dao-chaincontracts/abis"
+	"github.com/0xDaoChain/dao-chain/contracts/abis"
 	"github.com/0xDaoChain/dao-chain/state/runtime"
 	"github.com/0xDaoChain/dao-chain/types"
 	"github.com/stretchr/testify/assert"

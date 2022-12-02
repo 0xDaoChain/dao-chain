@@ -6,15 +6,15 @@ import (
 
 	"github.com/0xDaoChain/dao-chain/chain"
 	"github.com/0xDaoChain/dao-chain/consensus/ibft/hook"
-	"github.com/0xDaoChain/dao-chaincontracts/staking"
+	"github.com/0xDaoChain/dao-chain/contracts/staking"
 	"github.com/0xDaoChain/dao-chain/crypto"
 	"github.com/0xDaoChain/dao-chain/helper/common"
 	stakingHelper "github.com/0xDaoChain/dao-chain/helper/staking"
 	"github.com/0xDaoChain/dao-chain/state"
 	itrie "github.com/0xDaoChain/dao-chain/state/immutable-trie"
 	"github.com/0xDaoChain/dao-chain/types"
-	"github.com/0xDaoChain/dao-chainvalidators"
-	"github.com/0xDaoChain/dao-chainvalidators/store"
+	"github.com/0xDaoChain/dao-chain/validators"
+	"github.com/0xDaoChain/dao-chain/validators/store"
 	"github.com/hashicorp/go-hclog"
 	"github.com/stretchr/testify/assert"
 )

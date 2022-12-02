@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"github.com/0xDaoChain/dao-chaine2e/framework"
-	"github.com/0xDaoChain/dao-chainvalidators"
+	"github.com/0xDaoChain/dao-chain/validators"
 )
 
 func TestClusterBlockSync(t *testing.T) {

@@ -4,7 +4,7 @@ import (
 	"github.com/0xDaoChain/dao-chain/command"
 	"github.com/spf13/cobra"
 
-	"github.com/0xDaoChain/dao-chainlicenses"
+	"github.com/0xDaoChain/dao-chain/licenses"
 )
 
 func GetCommand() *cobra.Command {

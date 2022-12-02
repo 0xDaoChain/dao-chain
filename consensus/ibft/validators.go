@@ -4,7 +4,7 @@ import (
 	"math"
 
 	"github.com/0xDaoChain/dao-chain/types"
-	"github.com/0xDaoChain/dao-chainvalidators"
+	"github.com/0xDaoChain/dao-chain/validators"
 )
 
 func CalcMaxFaultyNodes(s validators.Validators) int {

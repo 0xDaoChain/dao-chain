@@ -2,7 +2,7 @@ package signer
 
 import (
 	"github.com/0xDaoChain/dao-chain/types"
-	"github.com/0xDaoChain/dao-chainvalidators"
+	"github.com/0xDaoChain/dao-chain/validators"
 )
 
 // KeyManager is a delegated module that signs data

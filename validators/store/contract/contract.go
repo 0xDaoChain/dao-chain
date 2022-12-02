@@ -6,8 +6,8 @@ import (
 
 	"github.com/0xDaoChain/dao-chain/state"
 	"github.com/0xDaoChain/dao-chain/types"
-	"github.com/0xDaoChain/dao-chainvalidators"
-	"github.com/0xDaoChain/dao-chainvalidators/store"
+	"github.com/0xDaoChain/dao-chain/validators"
+	"github.com/0xDaoChain/dao-chain/validators/store"
 	"github.com/hashicorp/go-hclog"
 	lru "github.com/hashicorp/golang-lru"
 )

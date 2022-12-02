@@ -3,11 +3,11 @@ package contract
 import (
 	"fmt"
 
-	"github.com/0xDaoChain/dao-chaincontracts/staking"
+	"github.com/0xDaoChain/dao-chain/contracts/staking"
 	"github.com/0xDaoChain/dao-chain/crypto"
 	"github.com/0xDaoChain/dao-chain/state"
 	"github.com/0xDaoChain/dao-chain/types"
-	"github.com/0xDaoChain/dao-chainvalidators"
+	"github.com/0xDaoChain/dao-chain/validators"
 )
 
 // FetchValidators fetches validators from a contract switched by validator type

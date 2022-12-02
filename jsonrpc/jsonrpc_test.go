@@ -7,7 +7,7 @@ import (
 	"testing"
 
 	"github.com/0xDaoChain/dao-chain/helper/tests"
-	"github.com/0xDaoChain/dao-chainversioning"
+	"github.com/0xDaoChain/dao-chain/versioning"
 	"github.com/stretchr/testify/assert"
 
 	"github.com/hashicorp/go-hclog"

@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	"github.com/0xDaoChain/dao-chain/helper/keccak"
-	"github.com/0xDaoChain/dao-chainversioning"
+	"github.com/0xDaoChain/dao-chain/versioning"
 )
 
 // Web3 is the web3 jsonrpc endpoint

@@ -3,7 +3,7 @@ package signer
 import (
 	"github.com/0xDaoChain/dao-chain/secrets"
 	"github.com/0xDaoChain/dao-chain/types"
-	"github.com/0xDaoChain/dao-chainvalidators"
+	"github.com/0xDaoChain/dao-chain/validators"
 )
 
 type MockSecretManager struct {

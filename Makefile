@@ -23,10 +23,10 @@ build:
 	$(eval BRANCH = $(shell git rev-parse --abbrev-ref HEAD | tr -d '\040\011\012\015\n'))
 	$(eval TIME = $(shell date))
 	go build -o dao-chain -ldflags="\
-    	-X 'github.com/0xDaoChain/dao-chainversioning.Version=$(LATEST_VERSION)' \
-		-X 'github.com/0xDaoChain/dao-chainversioning.Commit=$(COMMIT_HASH)'\
-		-X 'github.com/0xDaoChain/dao-chainversioning.Branch=$(BRANCH)'\
-		-X 'github.com/0xDaoChain/dao-chainversioning.BuildTime=$(TIME)'" \
+    	-X 'github.com/0xDaoChain/dao-chain/versioning.Version=$(LATEST_VERSION)' \
+		-X 'github.com/0xDaoChain/dao-chain/versioning.Commit=$(COMMIT_HASH)'\
+		-X 'github.com/0xDaoChain/dao-chain/versioning.Branch=$(BRANCH)'\
+		-X 'github.com/0xDaoChain/dao-chain/versioning.BuildTime=$(TIME)'" \
 	main.go
 
 .PHONY: lint

@@ -7,7 +7,7 @@ import (
 	"github.com/0xDaoChain/dao-chain/crypto"
 	"github.com/0xDaoChain/dao-chain/secrets"
 	"github.com/0xDaoChain/dao-chain/types"
-	"github.com/0xDaoChain/dao-chainvalidators"
+	"github.com/0xDaoChain/dao-chain/validators"
 	"github.com/umbracle/fastrlp"
 )
 

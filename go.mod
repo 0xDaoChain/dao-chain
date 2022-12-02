@@ -1,4 +1,4 @@
-module github.com/dao-chain/dao-chain
+module github.com/0xDaoChain/dao-chain
 
 go 1.18
 
@@ -59,7 +59,7 @@ require (
 	lukechampine.com/blake3 v1.1.7 // indirect
 )
 
-require github.com/dao-chain/go-ibft v0.0.0-20220810095021-e43142f8d267
+require github.com/0xPolygon/go-ibft v0.0.0-20220810095021-e43142f8d267
 
 require gopkg.in/DataDog/dd-trace-go.v1 v1.43.1
 
@@ -67,6 +67,7 @@ require (
 	cloud.google.com/go/compute v1.10.0 // indirect
 	cloud.google.com/go/iam v0.5.0 // indirect
 	filippo.io/edwards25519 v1.0.0-rc.1 // indirect
+	github.com/0xDaoChain/go-ibft v0.0.0-20221202143758-5e004511bef7 // indirect
 	github.com/DataDog/datadog-agent/pkg/obfuscate v0.0.0-20211129110424-6491aa3bf583 // indirect
 	github.com/DataDog/datadog-go v4.8.2+incompatible // indirect
 	github.com/DataDog/datadog-go/v5 v5.0.2 // indirect

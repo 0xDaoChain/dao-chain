@@ -9,7 +9,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/0xDaoChain/dao-chainversioning"
+	"github.com/0xDaoChain/dao-chain/versioning"
 	"github.com/gorilla/websocket"
 	"github.com/hashicorp/go-hclog"
 )

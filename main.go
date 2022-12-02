@@ -4,7 +4,7 @@ import (
 	_ "embed"
 
 	"github.com/0xDaoChain/dao-chain/command/root"
-	"github.com/0xDaoChain/dao-chainlicenses"
+	"github.com/0xDaoChain/dao-chain/licenses"
 )
 
 var (

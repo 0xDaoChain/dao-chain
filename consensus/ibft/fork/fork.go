@@ -5,7 +5,7 @@ import (
 	"errors"
 
 	"github.com/0xDaoChain/dao-chain/helper/common"
-	"github.com/0xDaoChain/dao-chainvalidators"
+	"github.com/0xDaoChain/dao-chain/validators"
 )
 
 const (

@@ -4,13 +4,13 @@ import (
 	"errors"
 
 	"github.com/0xDaoChain/dao-chain/consensus/ibft/hook"
-	"github.com/0xDaoChain/dao-chaincontracts/staking"
+	"github.com/0xDaoChain/dao-chain/contracts/staking"
 	"github.com/0xDaoChain/dao-chain/helper/hex"
 	stakingHelper "github.com/0xDaoChain/dao-chain/helper/staking"
 	"github.com/0xDaoChain/dao-chain/state"
 	"github.com/0xDaoChain/dao-chain/types"
-	"github.com/0xDaoChain/dao-chainvalidators"
-	"github.com/0xDaoChain/dao-chainvalidators/store"
+	"github.com/0xDaoChain/dao-chain/validators"
+	"github.com/0xDaoChain/dao-chain/validators/store"
 )
 
 var (

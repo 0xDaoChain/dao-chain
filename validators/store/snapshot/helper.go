@@ -2,7 +2,7 @@ package snapshot
 
 import (
 	"github.com/0xDaoChain/dao-chain/types"
-	"github.com/0xDaoChain/dao-chainvalidators"
+	"github.com/0xDaoChain/dao-chain/validators"
 )
 
 // isAuthorize is a helper function to return the bool value from Nonce

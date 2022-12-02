@@ -47,8 +47,12 @@ dmitri.shuralyov.com/state v0.0.0-20180228185332-28bcc343414c/go.mod h1:0PRwlb0D
 filippo.io/edwards25519 v1.0.0-rc.1 h1:m0VOOB23frXZvAOK44usCgLWvtsxIoMCTBGJZlpmGfU=
 filippo.io/edwards25519 v1.0.0-rc.1/go.mod h1:N1IkdkCkiLB6tki+MYJoSx2JTY9NUlxZE7eHn5EwJns=
 git.apache.org/thrift.git v0.0.0-20180902110319-2566ecd5d999/go.mod h1:fPE2ZNJGynbRyZ4dJvy6G277gSllfV2HJqblrnkyeyg=
-github.com/dao-chain/go-ibft v0.0.0-20220810095021-e43142f8d267 h1:+mFLx9IKW16fOcTKjZjkom3TGnihOuPwYAz2c6+UUWQ=
-github.com/dao-chain/go-ibft v0.0.0-20220810095021-e43142f8d267/go.mod h1:QPrugDXgsCFy2FeCJ0YokPrnyi1GoLhDj/PLO1dSoNY=
+github.com/0xDaoChain/go-ibft v0.0.0-20220810095021-e43142f8d267 h1:+mFLx9IKW16fOcTKjZjkom3TGnihOuPwYAz2c6+UUWQ=
+github.com/0xDaoChain/go-ibft v0.0.0-20220810095021-e43142f8d267/go.mod h1:QPrugDXgsCFy2FeCJ0YokPrnyi1GoLhDj/PLO1dSoNY=
+github.com/0xDaoChain/go-ibft v0.0.0-20221202143758-5e004511bef7 h1:dV1ZxO5iKrmYXgZaisbAcMsZTC2YQRvbLPiZk0iNSdw=
+github.com/0xDaoChain/go-ibft v0.0.0-20221202143758-5e004511bef7/go.mod h1:olybDztsWs6QkQA3hep0KdulaQCIp1kCGRCiGXty3AE=
+github.com/0xPolygon/go-ibft v0.0.0-20220810095021-e43142f8d267 h1:+mFLx9IKW16fOcTKjZjkom3TGnihOuPwYAz2c6+UUWQ=
+github.com/0xPolygon/go-ibft v0.0.0-20220810095021-e43142f8d267/go.mod h1:QPrugDXgsCFy2FeCJ0YokPrnyi1GoLhDj/PLO1dSoNY=
 github.com/Azure/go-ansiterm v0.0.0-20170929234023-d6e3b3328b78 h1:w+iIsaOQNcT7OZ575w+acHgRric5iCyQh+xv+KJ4HB8=
 github.com/BurntSushi/toml v0.3.1/go.mod h1:xHWCNGjB5oqiDr8zfno3MHue2Ht5sIBksp03qcyfWMU=
 github.com/BurntSushi/xgb v0.0.0-20160522181843-27f122750802/go.mod h1:IVnqGOEym/WlBOVXweHU+Q+/VP0lqqI8lqeDx9IjBqo=

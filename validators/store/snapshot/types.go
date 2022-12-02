@@ -7,8 +7,8 @@ import (
 	"sync/atomic"
 
 	"github.com/0xDaoChain/dao-chain/types"
-	"github.com/0xDaoChain/dao-chainvalidators"
-	"github.com/0xDaoChain/dao-chainvalidators/store"
+	"github.com/0xDaoChain/dao-chain/validators"
+	"github.com/0xDaoChain/dao-chain/validators/store"
 )
 
 // snapshotMetadata defines the metadata for the snapshot

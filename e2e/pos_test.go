@@ -10,7 +10,7 @@ import (
 	"time"
 
 	ibftOp "github.com/0xDaoChain/dao-chain/consensus/ibft/proto"
-	"github.com/0xDaoChain/dao-chaincontracts/staking"
+	"github.com/0xDaoChain/dao-chain/contracts/staking"
 	"github.com/0xDaoChain/dao-chain/crypto"
 	"github.com/0xDaoChain/dao-chaine2e/framework"
 	stakingHelper "github.com/0xDaoChain/dao-chain/helper/staking"
