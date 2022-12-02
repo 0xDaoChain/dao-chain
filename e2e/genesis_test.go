@@ -17,7 +17,7 @@ import (
 	"github.com/umbracle/ethgo"
 	"github.com/umbracle/ethgo/abi"
 
-	"github.com/0xDaoChain/dao-chaine2e/framework"
+	"github.com/0xDaoChain/dao-chain/e2e/framework"
 	"github.com/0xDaoChain/dao-chain/helper/tests"
 	"github.com/stretchr/testify/assert"
 )

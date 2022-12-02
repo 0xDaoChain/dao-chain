@@ -9,7 +9,7 @@ import (
 func GetCommand() *cobra.Command {
 	return &cobra.Command{
 		Use:   "version",
-		Short: "Returns the current Daoc   version",
+		Short: "Returns the current dao-chain version",
 		Args:  cobra.NoArgs,
 		Run:   runCommand,
 	}

@@ -6,7 +6,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/0xDaoChain/dao-chaine2e/framework"
+	"github.com/0xDaoChain/dao-chain/e2e/framework"
 	"github.com/0xDaoChain/dao-chain/jsonrpc"
 	"github.com/0xDaoChain/dao-chain/types"
 	"github.com/gorilla/websocket"

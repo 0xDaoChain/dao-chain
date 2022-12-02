@@ -10,7 +10,7 @@ import (
 	"github.com/0xDaoChain/dao-chain/consensus/ibft/fork"
 	ibftOp "github.com/0xDaoChain/dao-chain/consensus/ibft/proto"
 	"github.com/0xDaoChain/dao-chain/crypto"
-	"github.com/0xDaoChain/dao-chaine2e/framework"
+	"github.com/0xDaoChain/dao-chain/e2e/framework"
 	"github.com/0xDaoChain/dao-chain/types"
 	"github.com/stretchr/testify/assert"
 )

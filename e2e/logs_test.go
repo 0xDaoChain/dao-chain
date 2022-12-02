@@ -8,7 +8,7 @@ import (
 
 	"github.com/umbracle/ethgo"
 
-	"github.com/0xDaoChain/dao-chaine2e/framework"
+	"github.com/0xDaoChain/dao-chain/e2e/framework"
 	"github.com/0xDaoChain/dao-chain/helper/hex"
 	"github.com/0xDaoChain/dao-chain/helper/tests"
 	"github.com/0xDaoChain/dao-chain/types"

@@ -12,7 +12,7 @@ import (
 	"github.com/umbracle/ethgo"
 
 	"github.com/0xDaoChain/dao-chain/crypto"
-	"github.com/0xDaoChain/dao-chaine2e/framework"
+	"github.com/0xDaoChain/dao-chain/e2e/framework"
 	"github.com/0xDaoChain/dao-chain/helper/tests"
 	txpoolOp "github.com/0xDaoChain/dao-chain/txpool/proto"
 	"github.com/0xDaoChain/dao-chain/types"

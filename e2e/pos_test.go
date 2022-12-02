@@ -12,7 +12,7 @@ import (
 	ibftOp "github.com/0xDaoChain/dao-chain/consensus/ibft/proto"
 	"github.com/0xDaoChain/dao-chain/contracts/staking"
 	"github.com/0xDaoChain/dao-chain/crypto"
-	"github.com/0xDaoChain/dao-chaine2e/framework"
+	"github.com/0xDaoChain/dao-chain/e2e/framework"
 	stakingHelper "github.com/0xDaoChain/dao-chain/helper/staking"
 	"github.com/0xDaoChain/dao-chain/helper/tests"
 	txpoolOp "github.com/0xDaoChain/dao-chain/txpool/proto"

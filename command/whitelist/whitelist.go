@@ -9,7 +9,7 @@ import (
 func GetCommand() *cobra.Command {
 	whitelistCmd := &cobra.Command{
 		Use:   "whitelist",
-		Short: "Top level command for modifying the Daoc   whitelists within the config. Only accepts subcommands.",
+		Short: "Top level command for modifying the dao-chain whitelists within the config. Only accepts subcommands.",
 	}
 
 	registerSubcommands(whitelistCmd)

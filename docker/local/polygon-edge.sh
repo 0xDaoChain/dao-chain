@@ -2,7 +2,7 @@
 
 set -e
 
-Daoc_ _BIN=./dao-chain
+dao-chain_EDGE_BIN=./dao-chain
 GENESIS_PATH=/genesis/genesis.json
 
 case "$1" in
@@ -12,11 +12,11 @@ case "$1" in
           echo "Secrets have already been generated."
       else
           echo "Generating secrets..."
-          secrets=$("$Daoc_ _BIN" secrets init --num 4 --data-dir data- --json)
+          secrets=$("$dao-chain_EDGE_BIN" secrets init --num 4 --data-dir data- --json)
           echo "Secrets have been successfully generated"
 
           echo "Generating genesis file..."
-          "$Daoc_ _BIN" genesis \
+          "$dao-chain_EDGE_BIN" genesis \
             --dir "$GENESIS_PATH" \
             --consensus ibft \
             --ibft-validators-prefix-path data- \
@@ -33,7 +33,7 @@ case "$1" in
           sleep 1
       done
       echo "Executing dao-chain..."
-      exec "$Daoc_ _BIN" "$@"
+      exec "$dao-chain_EDGE_BIN" "$@"
       ;;
 
 esac

@@ -780,7 +780,7 @@ func (t *TestServer) GetStdout() io.Writer {
 }
 
 func resolveBinary() string {
-	bin := os.Getenv(" _BINARY")
+	bin := os.Getenv("EDGE_BINARY")
 	if bin != "" {
 		return bin
 	}

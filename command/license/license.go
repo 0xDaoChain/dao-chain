@@ -10,7 +10,7 @@ import (
 func GetCommand() *cobra.Command {
 	return &cobra.Command{
 		Use:   "license",
-		Short: "Returns Daoc   license and dependency attributions",
+		Short: "Returns dao-chain license and dependency attributions",
 		Args:  cobra.NoArgs,
 		Run:   runCommand,
 	}

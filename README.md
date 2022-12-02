@@ -1,22 +1,19 @@
 
 ![Banner](.github/banner.jpg)
-[![codecov](https://codecov.io/gh/dao-chain/dao-chain/branch/develop/graph/badge.svg?token=PXEADRC1IW)](https://codecov.io/gh/dao-chain/dao-chain)
-## Daoc  
+[![codecov](https://codecov.io/gh/0xDaoChain/dao-chain/branch/develop/graph/badge.svg?token=PXEADRC1IW)](https://codecov.io/gh/0xDaoChain/dao-chain)
+## dao-chain
 
-Daoc   is a modular and extensible framework for building Ethereum-compatible blockchain networks.
+dao-chain is a modular and extensible framework for building Ethereum-compatible blockchain networks.
 
-To find out more about Daoc, visit the [official website](https://Daoc.technology/).
+To find out more about dao-chain, visit the [official website](https://dao-chain.technology/).
 
-WARNING: This is a work in progress so architectural changes may happen in the future. The code has not been audited yet, so please contact [Daoc   team](mailto: @Daoc.technology) if you would like to use it in production.
+WARNING: This is a work in progress so architectural changes may happen in the future. The code has not been audited yet, so please contact [dao-chain team](mailto:) if you would like to use it in production.
 
 ## Documentation 📝
 
-If you'd like to learn more about the Daoc  , how it works and how you can use it for your project,
-please check out the **[Daoc   Documentation](https://docs.Daoc.technology/docs/ /overview/)**.
-
 ---
 
-Copyright 2022 Daoc Technology
+Copyright 2022 dao-chain Technology
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.

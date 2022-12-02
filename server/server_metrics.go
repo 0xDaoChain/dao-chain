@@ -20,7 +20,7 @@ func (s *Server) setupTelemetry() error {
 		return err
 	}
 
-	metricsConf := metrics.DefaultConfig(" ")
+	metricsConf := metrics.DefaultConfig("edge")
 	metricsConf.EnableHostname = false
 	metrics.NewGlobal(metricsConf, metrics.FanoutSink{
 		inm, promSink,

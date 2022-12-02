@@ -40,7 +40,7 @@ func setFlags(cmd *cobra.Command) {
 		&params.genesisPath,
 		dirFlag,
 		fmt.Sprintf("./%s", command.DefaultGenesisFileName),
-		"the directory for the Dao-chain genesis data",
+		"the directory for the dao-chain genesis data",
 	)
 
 	cmd.Flags().Uint64Var(

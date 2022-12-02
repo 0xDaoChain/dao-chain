@@ -17,7 +17,7 @@ builds:
       - CC=o64-clang
       - CXX=o64-clang++
     ldflags:
-      -s -w -X 'github.com/NoVa-Toast/dao-chain/versioning.Version=v{{ .Version }}'
+      -s -w -X 'github.com/0xDaoChain/dao-chain/versioning.Version=v{{ .Version }}'
 
   - id: darwin-arm64
     main: ./main.go
@@ -70,13 +70,6 @@ archives:
       - LICENSE
       - README.md
 
-#nfpms:
-#  - vendor: dao-chain
-#    homepage: https://Daoc.technology
-#    maintainer: Daoc   Team < @Daoc.technology>
-#    description:  A Framework for Building Ethereum-compatible Blockchain Networks
-#    license: GPLv3 LGPLv3
-#
 #    formats:
 #      - apk
 #      - deb
@@ -97,7 +90,7 @@ snapshot:
 
 dockers:
   - image_templates:
-      - dao-chain/{{ .ProjectName }}:{{ .Version }}-amd64
+      - 0xDaoChain/{{ .ProjectName }}:{{ .Version }}-amd64
     dockerfile: Dockerfile.release
     use: buildx
     goarch: amd64
@@ -108,7 +101,7 @@ dockers:
     skip_push: false
 
   - image_templates:
-      - dao-chain/{{ .ProjectName }}:{{ .Version }}-arm64
+      - 0xDaoChain/{{ .ProjectName }}:{{ .Version }}-arm64
     dockerfile: Dockerfile.release
     use: buildx
     goarch: arm64
@@ -119,14 +112,14 @@ dockers:
     skip_push: false
 
 docker_manifests:
-  - name_template: dao-chain/{{ .ProjectName }}:{{ .Version }}
+  - name_template: 0xDaoChain/{{ .ProjectName }}:{{ .Version }}
     image_templates:
-      - dao-chain/{{ .ProjectName }}:{{ .Version }}-amd64
-      - dao-chain/{{ .ProjectName }}:{{ .Version }}-arm64
+      - 0xDaoChain/{{ .ProjectName }}:{{ .Version }}-amd64
+      - 0xDaoChain/{{ .ProjectName }}:{{ .Version }}-arm64
     skip_push: false
 
-  - name_template: dao-chain/{{ .ProjectName }}:latest
+  - name_template: 0xDaoChain/{{ .ProjectName }}:latest
     image_templates:
-      - dao-chain/{{ .ProjectName }}:{{ .Version }}-amd64
-      - dao-chain/{{ .ProjectName }}:{{ .Version }}-arm64
+      - 0xDaoChain/{{ .ProjectName }}:{{ .Version }}-amd64
+      - 0xDaoChain/{{ .ProjectName }}:{{ .Version }}-arm64
     skip_push: auto

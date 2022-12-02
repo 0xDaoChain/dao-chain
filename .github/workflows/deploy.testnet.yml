@@ -37,7 +37,7 @@ jobs:
       url: https://rpc.us-east-1.tn.testing.psdk.io/
     runs-on: ubuntu-latest
     steps:
-      - name: Download Daoc   Artifact
+      - name: Download dao-chain Artifact
         uses: actions/download-artifact@v3
         with:
           name: dao-chain
@@ -77,7 +77,7 @@ jobs:
 
       - name: Publish Binary package to S3
         run: |
-          aws s3 cp ./dao-chain.tar.gz s3://${{ secrets.Daoc_ _ARTIFACT_BUCKET }} --metadata "{\"commit_sha\":\"${GITHUB_SHA}\"}"
+          aws s3 cp ./dao-chain.tar.gz s3://${{ secrets.dao-chain_EDGE_ARTIFACT_BUCKET }} --metadata "{\"commit_sha\":\"${GITHUB_SHA}\"}"
       - name: Deploy to Testnet
         continue-on-error: true
         env:

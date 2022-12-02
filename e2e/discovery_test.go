@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/0xDaoChain/dao-chaine2e/framework"
+	"github.com/0xDaoChain/dao-chain/e2e/framework"
 	"github.com/0xDaoChain/dao-chain/server/proto"
 	empty "google.golang.org/protobuf/types/known/emptypb"
 )

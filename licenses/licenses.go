@@ -14,7 +14,7 @@ type DepLicense struct {
 }
 
 var (
-	// Daoc   License
+	// dao-chain License
 	License string
 
 	// Dependency Licenses

@@ -14,7 +14,7 @@ import (
 func GetCommand() *cobra.Command {
 	statusCmd := &cobra.Command{
 		Use:   "status",
-		Short: "Returns the status of the Daoc   client",
+		Short: "Returns the status of the dao-chain client",
 		Args:  cobra.NoArgs,
 		Run:   runCommand,
 	}

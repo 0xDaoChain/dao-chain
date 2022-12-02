@@ -10,7 +10,7 @@ import (
 func GetCommand() *cobra.Command {
 	backupCmd := &cobra.Command{
 		Use:     "backup",
-		Short:   "Backups the Chain(NEEDS A RUNNING NODE!)",
+		Short:   "Create blockchain backup file by fetching blockchain data from the running node",
 		PreRunE: runPreRun,
 		Run:     runCommand,
 	}
@@ -28,21 +28,21 @@ func setFlags(cmd *cobra.Command) {
 		&params.out,
 		outFlag,
 		"",
-		"Backup path",
+		"the export path for the backup",
 	)
 
 	cmd.Flags().StringVar(
 		&params.fromRaw,
 		fromFlag,
 		"0",
-		"from which height should the backup be made?",
+		"the beginning height of the chain in backup",
 	)
 
 	cmd.Flags().StringVar(
 		&params.toRaw,
 		toFlag,
 		"",
-		"till which height should the backup be made?",
+		"the end height of the chain in backup",
 	)
 }
 
