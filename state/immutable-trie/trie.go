@@ -73,7 +73,7 @@ func (f *FullNode) copy() *FullNode {
 	return nc
 }
 
-func (f *FullNode) set (idx byte, e Node) {
+func (f *FullNode) setEdge(idx byte, e Node) {
 	if idx == 16 {
 		f.value = e
 	} else {
@@ -81,7 +81,7 @@ func (f *FullNode) set (idx byte, e Node) {
 	}
 }
 
-func (f *FullNode) get (idx byte) Node {
+func (f *FullNode) getEdge(idx byte) Node {
 	if idx == 16 {
 		return f.value
 	} else {
@@ -305,7 +305,7 @@ func (t *Txn) lookup(node interface{}, key []byte) (Node, []byte) {
 			return t.lookup(n.value, key)
 		}
 
-		child, res := t.lookup(n.get (key[0]), key[1:])
+		child, res := t.lookup(n.getEdge(key[0]), key[1:])
 
 		if child != nil {
 			n.children[key[0]] = child
@@ -395,9 +395,9 @@ func (t *Txn) insert(node Node, search, value []byte) Node {
 			// Introduce a new branch
 			b := FullNode{epoch: t.epoch}
 			if len(n.key) > plen+1 {
-				b.set (n.key[plen], &ShortNode{key: n.key[plen+1:], child: n.child})
+				b.setEdge(n.key[plen], &ShortNode{key: n.key[plen+1:], child: n.child})
 			} else {
-				b.set (n.key[plen], n.child)
+				b.setEdge(n.key[plen], n.child)
 			}
 
 			child := t.insert(&b, search[plen:], value)
@@ -418,12 +418,12 @@ func (t *Txn) insert(node Node, search, value []byte) Node {
 			return b
 		} else {
 			k := search[0]
-			child := n.get (k)
+			child := n.getEdge(k)
 			newChild := t.insert(child, search[1:], value)
 			if child == nil {
-				b.set (k, newChild)
+				b.setEdge(k, newChild)
 			} else {
-				b.set (k, newChild)
+				b.setEdge(k, newChild)
 			}
 
 			return b
@@ -500,26 +500,26 @@ func (t *Txn) delete(node Node, search []byte) (Node, bool) {
 		n.hash = n.hash[:0]
 
 		key := search[0]
-		newChild, ok := t.delete(n.get (key), search[1:])
+		newChild, ok := t.delete(n.getEdge(key), search[1:])
 
 		if !ok {
 			return nil, false
 		}
 
-		n.set (key, newChild)
+		n.setEdge(key, newChild)
 
 		indx := -1
 
 		var notEmpty bool
 
-		for  , i := range n.children {
+		for edge, i := range n.children {
 			if i != nil {
 				if indx != -1 {
 					notEmpty = true
 
 					break
 				} else {
-					indx =  
+					indx = edge
 				}
 			}
 		}

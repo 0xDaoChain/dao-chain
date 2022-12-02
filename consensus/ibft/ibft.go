@@ -10,7 +10,6 @@ import (
 	"github.com/0xDaoChain/dao-chain/consensus/ibft/fork"
 	"github.com/0xDaoChain/dao-chain/consensus/ibft/proto"
 	"github.com/0xDaoChain/dao-chain/consensus/ibft/signer"
-	"github.com/0xDaoChain/dao-chain/helper/progress"
 	"github.com/0xDaoChain/dao-chain/network"
 	"github.com/0xDaoChain/dao-chain/secrets"
 	"github.com/0xDaoChain/dao-chain/state"
